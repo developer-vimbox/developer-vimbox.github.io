@@ -60,7 +60,7 @@ case "":
                     break;}};
 var styleCache_Education_subzones={}
 var style_Education_subzones = function(feature, resolution){
-    var value = feature.get("q2wHide_level_of_e");
+    var value = feature.get("level_of_e");
     var style = categories_Education_subzones(feature, value);
     if ("" !== null) {
         var labelText = String("");
